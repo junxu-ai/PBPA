@@ -4,7 +4,7 @@ from matplotlib.pylab import plot, xlabel, ylabel, title, legend, figure, hold, 
 from scipy.stats import mode 
 from scipy import mean, median,std
 
-from write_update_freq import write_update_freq    
+from PBPA.write_update_freq import write_update_freq
 
 def sub_freq_wow(lists_cmd=None,options=None):
 

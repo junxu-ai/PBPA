@@ -1,6 +1,6 @@
 from matplotlib.pylab import plot, xlabel, ylabel, title, legend, figure, hold, savefig, grid, subplot 
 from numpy import zeros, nonzero, shape, arange, transpose, dot, uint8, uint16, uint32, c_,sum,squeeze, ceil,logical_and,add,copy,mod,mean,array
-from stack_distance import stack_distance
+from PBPA.stack_distance import stack_distance
 
 class stack_wow_record_class:
     def __init__(self,stack_dist_record_partial=None,stack_dist_record_full=None,size_dist=None,lba_dist=None,cdf_record_partial=None,cdf_record_full=None):

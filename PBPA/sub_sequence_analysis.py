@@ -3,9 +3,9 @@ from matplotlib.pylab import plot, xlabel, ylabel, title, legend, figure, hold, 
 # from statistics import mode
 from scipy.stats import mode 
 from scipy import mean, median,std
-from sequential_stream_track import sequential_stream_track
-from plt_plugins import change_fontsize
-from near_sequential_stream_track import near_sequential_stream_track
+from PBPA.sequential_stream_track import sequential_stream_track
+from PBPA.plt_plugins import change_fontsize
+from PBPA.near_sequential_stream_track import near_sequential_stream_track
 
 class sequence_stat_class:
     def __init__(self,average_seq_cmd_size_write_only=None,average_seq_cmd_size_write_only_limited=None,average_seq_stream_size_write_only_limited=None,average_seq_cmd_size_write_only_s=None,average_seq_cmd_size_write_only_s2=None,average_seq_cmd_size_read_only=None,average_seq_cmd_size_read_only_limited=None,average_seq_stream_size_read_only_limited=None,average_seq_cmd_size_read_only_s=None,average_seq_cmd_size_read_only_s2=None,ratio_cmd_count_read_only=None, ratio_cmd_count_read_only_limited=None, ratio_cmd_count_write_only=None, ratio_cmd_count_write_only_limited=None,ratio_cmd_count_all=None,ratio_cmd_count_all_limited=None):

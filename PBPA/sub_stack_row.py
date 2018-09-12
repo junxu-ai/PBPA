@@ -4,8 +4,8 @@ from matplotlib.pylab import plot, xlabel, ylabel, title, legend, figure, hold, 
 from scipy.stats import mode 
 from scipy import mean, median,std
 
-from stack_distance_row import stack_distance_row
-from stack_distance import stack_distance
+from PBPA.stack_distance_row import stack_distance_row
+from PBPA.stack_distance import stack_distance
 
 class stack_row_record_class:
     def __init__(self,stack_dist_record_partial=None,stack_dist_record_full=None,size_dist=None,lba_dist=None,cdf_record_partial=None,cdf_record_full=None):

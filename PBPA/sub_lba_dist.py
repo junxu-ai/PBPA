@@ -1,7 +1,7 @@
 
 import numpy as np
 
-from lba_size_dist2 import lba_size_dist2
+from PBPA.lba_size_dist2 import lba_size_dist2
 from mpl_toolkits.mplot3d import Axes3D
 
 # if available import pylab (from matlibplot)

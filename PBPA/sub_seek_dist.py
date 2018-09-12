@@ -4,7 +4,7 @@ from matplotlib.pylab import plot, xlabel, ylabel, title, legend, figure, hold, 
 from scipy.stats import mode 
 from scipy import mean, median,std
 
-from seek_distance_stack import seek_distance_stack
+from PBPA.seek_distance_stack import seek_distance_stack
 
 class seek_dist_record_class:
    def __init__(self, queue_len_setting, seek_all=[], seek_write_only=[],seek_read_only=[]):

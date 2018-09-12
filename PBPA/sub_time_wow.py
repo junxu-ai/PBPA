@@ -4,7 +4,7 @@ from matplotlib.pylab import plot, xlabel, ylabel, title, legend, figure, hold, 
 # from statistics import mode
 from scipy.stats import mode 
 from scipy import mean, median,std
-from write_update_time import write_update_time
+from PBPA.write_update_time import write_update_time
     
 def sub_time_wow(lists_cmd=None,options=None):
 
