@@ -10,8 +10,11 @@ IO event trace analysis is one of the most common techniques for storage system 
 # Installation [Python 3.5+]
 
 sudo apt-get install python3-tk
+
 pip install pandas python-pptx dill scipy matplotlib DateTime
+
 cd PBPA
+
 python setup.py install 
 
 # structure
